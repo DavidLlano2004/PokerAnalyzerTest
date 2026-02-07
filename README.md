@@ -5,11 +5,19 @@ Analizador de manos de Texas Hold'em Poker con Next.js 14, TypeScript y Zustand.
 ## Inicio Rápido
 
 ```bash
-# Instalar dependencias
-npm install --legacy-peer-deps
+# Instalar pnpm
+npm install -g pnpm
+
+# Verificar version
+pnpm -v
+
+#Instalar dependencias
+pnpm install
+
 
 # Ejecutar en desarrollo
-npm run dev
+pnpm dev
+
 
 # Abrir en navegador
 http://localhost:3000
